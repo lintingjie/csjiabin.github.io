@@ -12,21 +12,6 @@ tags:
     - WWDC
 ---
 
-## asdas
-```
----
-layout:     post
-title:      入门: 在Windows上搭建Flutter开发环境
-subtitle:   Get Started: Install on Windows
-date:       2018-06-29
-author:     csjiabin
-header-img: img/post-bg-cook.jpg
-catalog: true
-tags:
-    - iOS
-    - WWDC
----
-```
 # 开始:安装在Windows上
 
 ## 系统需求
