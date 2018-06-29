@@ -90,11 +90,14 @@ tags:
  ### 设置Android模拟器
  
   > 要准备在Android模拟器上运行和测试Flutter应用程序，请遵循以下步骤:
+  
     1. 在您的机器上启用[VM加速]:https://developer.android.com/studio/run/emulator-acceleration.html。
     2. 启动 ** Android Studio>Tools>Android>AVD Manager ** ，选择 ** Create Virtual Device ** 。( ** Android ** 子菜单只在Android项目中出现。)
     3. 选择设备定义并选择 ** Next ** 。
     4. 为要模拟的Android版本选择一个或多个系统映像，然后选择 ** Next ** 。推荐使用x86或x86_64映像。
     5. 在仿真性能下，选择 ** Hardware - GLES 2.0 ** 来支持[硬件加速]:https://developer.android.com/studio/run/emulator-acceleration.html。
     6. 验证AVD配置是否正确，并选择 ** Finish ** 。
+    
       >> 有关上述步骤的详细信息，请参见 [管理AVDs]:https://developer.android.com/studio/run/managing-avds.html。
+      
     7. 在Android虚拟设备管理器中，单击工具栏中的Run。模拟器启动并显示选定的OS版本和设备的默认画布。
