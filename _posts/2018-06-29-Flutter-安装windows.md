@@ -12,6 +12,8 @@ tags:
     - WWDC
 ---
 
+## asdas
+```
 ---
 layout:     post
 title:      入门: 在Windows上搭建Flutter开发环境
@@ -24,7 +26,7 @@ tags:
     - iOS
     - WWDC
 ---
-
+```
 # 开始:安装在Windows上
 
 ## 系统需求
@@ -62,7 +64,7 @@ tags:
 
 > 在Flutter控制台，运行以下命令，查看是否需要安装任何依赖项以完成安装:
 
-  ```shell
+  ```
     $ flutter doctor
   ```
 
