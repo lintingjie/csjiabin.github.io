@@ -7,8 +7,10 @@ author:     csjiabin
 header-img: img/post-bg-cook.jpg
 catalog: true
 tags:
-    - android
+    - widows
     - flutter
+    - android
+    - WWDC
 ---
 
 # 开始:安装在Windows上
