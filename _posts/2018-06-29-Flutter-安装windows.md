@@ -7,9 +7,9 @@ author:     csjiabin
 header-img: img/post-bg-cook.jpg
 catalog: true
 tags:
-    - Windows
-    - Android
-    - Flutter
+    - windows
+    - android
+    - flutter
 ---
 
 # 开始:安装在Windows上
