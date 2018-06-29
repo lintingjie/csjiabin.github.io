@@ -3,7 +3,7 @@ layout:     post
 title:      5分钟带你看完 WWDC 2018
 subtitle:   WWDC 2018 Keynote 全记录
 date:       2018-06-05
-author:     BY
+author:     csjiabin
 header-img: img/post-bg-cook.jpg
 catalog: true
 tags:
@@ -54,7 +54,7 @@ tags:
 
 > 此命令检查您的环境并向终端窗口显示报告。Dart SDK与Flutter绑定;不需要分别安装Dart。仔细检查输出，寻找可能需要安装的其他软件或需要执行的其他任务(以粗体文本显示)。
 
- >> 示例：
+ > 示例：
 
 ```
 [-] Android toolchain - develop for Android devices
@@ -70,7 +70,7 @@ tags:
 
 ## 安卓系统设置
 
->> 注意:Flutter依赖于Android Studio的完整安装来提供Android平台的依赖项。但是，您可以在许多编辑器中编写您的Flutter应用程序;后面的步骤将讨论这个问题。
+> 注意:Flutter依赖于Android Studio的完整安装来提供Android平台的依赖项。但是，您可以在许多编辑器中编写您的Flutter应用程序;后面的步骤将讨论这个问题。
 
 ### 安装 Android Studio
 
