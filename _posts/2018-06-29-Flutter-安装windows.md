@@ -2,8 +2,8 @@
 layout:     post
 title:      入门: 在Windows上搭建Flutter开发环境
 subtitle:   Get Started: Install on Windows
-date:       2018-06-05
-author:     csjiabin
+date:       2018-06-29
+author:     BY
 header-img: img/post-bg-cook.jpg
 catalog: true
 tags:
