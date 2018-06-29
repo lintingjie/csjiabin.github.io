@@ -8,8 +8,6 @@ header-img: img/post-bg-cook.jpg
 catalog: true
 tags:
     - widows
-    - flutter
-    - android
     - WWDC
 ---
 
