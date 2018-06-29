@@ -7,6 +7,7 @@ author:     csjiabin
 header-img: img/post-bg-cook.jpg
 catalog: true
 tags:
+    - iOS
     - WWDC
 ---
 
