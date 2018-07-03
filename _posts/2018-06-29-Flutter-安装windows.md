@@ -65,13 +65,13 @@ tags:
 > 注意:Flutter依赖于Android Studio的完整安装来提供Android平台的依赖项。但是，您可以在许多编辑器中编写您的Flutter应用程序;后面的步骤将讨论这个问题。
 
 #### 安装 Android Studio
----
+------
   1. 下载并安装 Android Studio.
   2. 打开 Android Studio, 并通过“Android Studio安装向导”。这将安装最新的Android SDK、Android SDK平台工具和Android SDK构建工具，这些工具在开发Android时是需要的。
 
 #### 设置你的Android设备
 ---
->要准备在Android设备上运行和测试Flutter应用程序，您需要一个运行Android 4.1 (API级别16)或更高的Android设备。
+> 要准备在Android设备上运行和测试Flutter应用程序，您需要一个运行Android 4.1 (API级别16)或更高的Android设备。
 ---
   1. 在您的设备上启用 **开发人员选项** 和 **USB调试 ** 。详细说明可在[Android文档](https://developer.android.com/studio/debug/dev-options.html) 中找到。
   2. 仅限windows:安装[谷歌USB驱动](https://developer.android.com/studio/run/win-usb) 程序
@@ -82,7 +82,6 @@ tags:
  #### 设置Android模拟器
  ---
   > 要准备在Android模拟器上运行和测试Flutter应用程序，请遵循以下步骤:
-  ---
     1. 在您的机器上启用[VM加速](https://developer.android.com/studio/run/emulator-acceleration.html)。
     2. 启动 **Android Studio>Tools>Android>AVD Manager** ，选择 **Create Virtual Device** 。( **Android** 子菜单只在Android项目中出现。)
     3. 选择设备定义并选择 **Next** 。
