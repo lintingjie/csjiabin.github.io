@@ -20,9 +20,9 @@ tags:
  * 操作系统:Windows 7 SP1或更高版本(64位)
  * 磁盘空间:400 MB(不包括IDE/工具的磁盘空间)。
  * 工具:Flutter 取决于这些工具在您的环境中是否可用。
-   * PowerShell 5.0或更新
-   * Windows的Git(使用“Windows命令提示符使用Git”选项)
-   > 如果Windows的Git已经安装，请确保可以从命令提示符或PowerShell运行Git命令。
+    * PowerShell 5.0或更新
+    * Windows的Git(使用“Windows命令提示符使用Git”选项)
+    > 如果Windows的Git已经安装，请确保可以从命令提示符或PowerShell运行Git命令。
 
 ### 获取Flutter SDK
 ---
@@ -80,15 +80,15 @@ tags:
   4. 在终端中，运行flutter设备命令来验证flutter是否识别了连接的Android设备。
  >默认情况下，Flutter使用您的adb工具所基于的Android SDK版本。如果您希望Flutter使用不同的Android SDK安装，则必须将ANDROID_HOME环境变量设置为该安装目录。
  
- #### 设置Android模拟器
+#### 设置Android模拟器
  
-  要准备在Android模拟器上运行和测试Flutter应用程序，请遵循以下步骤:
-  
-    1. 在您的机器上启用[VM加速](https://developer.android.com/studio/run/emulator-acceleration.html)。
-    2. 启动 **Android Studio>Tools>Android>AVD Manager** ，选择 **Create Virtual Device** 。( **Android** 子菜单只在Android项目中出现。)
-    3. 选择设备定义并选择 **Next** 。
-    4. 为要模拟的Android版本选择一个或多个系统映像，然后选择 **Next** 。推荐使用x86或x86_64映像。
-    5. 在仿真性能下，选择 **Hardware - GLES 2.0** 来支持[硬件加速](https://developer.android.com/studio/run/emulator-acceleration.html)。
-    6. 验证AVD配置是否正确，并选择 **Finish** 。
+要准备在Android模拟器上运行和测试Flutter应用程序，请遵循以下步骤：
+
+  1. 在您的机器上启用[VM加速](https://developer.android.com/studio/run/emulator-acceleration.html)。
+  2. 启动 **Android Studio>Tools>Android>AVD Manager** ，选择 **Create Virtual Device** 。( **Android** 子菜单只在Android项目中出现。)
+  3. 选择设备定义并选择 **Next** 。
+  4. 为要模拟的Android版本选择一个或多个系统映像，然后选择 **Next** 。推荐使用x86或x86_64映像。
+  5. 在仿真性能下，选择 **Hardware - GLES 2.0** 来支持[硬件加速](https://developer.android.com/studio/run/emulator-acceleration.html)。
+  6. 验证AVD配置是否正确，并选择 **Finish** 。
       >> 有关上述步骤的详细信息，请参见 [管理AVDs](https://developer.android.com/studio/run/managing-avds.html)。 
-    7. 在Android虚拟设备管理器中，单击工具栏中的Run。模拟器启动并显示选定的OS版本和设备的默认画布。
+  7. 在Android虚拟设备管理器中，单击工具栏中的Run。模拟器启动并显示选定的OS版本和设备的默认画布。
