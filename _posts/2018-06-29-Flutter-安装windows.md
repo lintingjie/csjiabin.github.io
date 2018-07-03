@@ -27,13 +27,13 @@ tags:
 
 ## 获取Flutter SDK
 
-  1. 下载以下安装包以获得最新的beta版本 Flutter SDK (有关其他发布渠道和旧版本，请参见 [SDK archive]:https://flutter.io/sdk-archive/ 归档页面.):
-    * [flutter_windows_v0.5.1-beta.zip]:https://storage.googleapis.com/flutter_infra/releases/beta/windows/flutter_windows_v0.5.1-beta.zip 
+  1. 下载以下安装包以获得最新的beta版本 Flutter SDK (有关其他发布渠道和旧版本，请参见 [SDK archive](https://flutter.io/sdk-archive/) 归档页面.):
+    * [flutter_windows_v0.5.1-beta.zip](https://storage.googleapis.com/flutter_infra/releases/beta/windows/flutter_windows_v0.5.1-beta.zip)
   2. 提取zip文件，将包含的flutter放在flutter SDK所需的安装位置(例如)。 **C:\src\flutter** ;不要安装目录中的flutter **C:\Program Files\** 这样需要提升权限)。.
   3. 找到该文件 **flutter_console.bat** 在 **flutter** 目录内。通过双击启动它。
 > 您现在可以在Flutter控制台中运行Flutter命令了!
 
-> 要更新Flutter的现有版本，请参阅升级 [Flutter]:https://flutter.io/upgrading/。
+> 要更新Flutter的现有版本，请参阅升级 [Flutter](https://flutter.io/upgrading/)。
 
 ## 更新你的路径
 
@@ -67,7 +67,7 @@ tags:
 
 > 下面的部分将描述如何执行这些任务并完成安装过程。一旦安装了任何丢失的依赖项，再次运行flutter doctor命令，以验证所有设置都是正确的。
 
->> **flutter** 工具使用谷歌分析匿名报告特性使用统计数据和基本崩溃报告。这些数据被用来帮助改进Flutter工具。分析不是在第一次运行或任何涉及 **flutter config** 的运行时发送的，因此您可以在发送任何数据之前选择退出分析。要禁用报告，键入 **flutter config** ——不分析和显示当前设置，输入 **flutter config** 。看到谷歌的隐私政策[www.google.com/intl/en/policies/privacy]:https://www.google.com/intl/en/policies/privacy。
+>> **flutter** 工具使用谷歌分析匿名报告特性使用统计数据和基本崩溃报告。这些数据被用来帮助改进Flutter工具。分析不是在第一次运行或任何涉及 **flutter config** 的运行时发送的，因此您可以在发送任何数据之前选择退出分析。要禁用报告，键入 **flutter config** ——不分析和显示当前设置，输入 **flutter config** 。看到谷歌的隐私政策[www.google.com/intl/en/policies/privacy](https://www.google.com/intl/en/policies/privacy)。
 
 ## 安卓系统设置
 
