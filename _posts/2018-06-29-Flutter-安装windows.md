@@ -90,5 +90,5 @@ tags:
   4. 为要模拟的Android版本选择一个或多个系统映像，然后选择 **Next** 。推荐使用x86或x86_64映像。
   5. 在仿真性能下，选择 **Hardware - GLES 2.0** 来支持[硬件加速](https://developer.android.com/studio/run/emulator-acceleration.html)。
   6. 验证AVD配置是否正确，并选择 **Finish** 。
-      >> 有关上述步骤的详细信息，请参见 [管理AVDs](https://developer.android.com/studio/run/managing-avds.html)。 
+      > 有关上述步骤的详细信息，请参见 [管理AVDs](https://developer.android.com/studio/run/managing-avds.html)。 
   7. 在Android虚拟设备管理器中，单击工具栏中的Run。模拟器启动并显示选定的OS版本和设备的默认画布。
