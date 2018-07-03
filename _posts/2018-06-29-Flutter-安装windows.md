@@ -80,26 +80,26 @@ tags:
 
 ### 设置你的Android设备
 
-> 要准备在Android设备上运行和测试Flutter应用程序，您需要一个运行Android 4.1 (API级别16)或更高的Android设备。
+>要准备在Android设备上运行和测试Flutter应用程序，您需要一个运行Android 4.1 (API级别16)或更高的Android设备。
 
-  1. 在您的设备上启用 **开发人员选项** 和 **USB调试 ** 。详细说明可在[Android文档]:https://developer.android.com/studio/debug/dev-options.html 中找到。
-  2. 仅限windows:安装[谷歌USB驱动]:https://developer.android.com/studio/run/win-usb 程序
+  1. 在您的设备上启用 **开发人员选项** 和 **USB调试 ** 。详细说明可在[Android文档](https://developer.android.com/studio/debug/dev-options.html) 中找到。
+  2. 仅限windows:安装[谷歌USB驱动](https://developer.android.com/studio/run/win-usb) 程序
   3. 用USB数据线把手机插入电脑。如果提示您的设备，请授权您的计算机访问您的设备。
   4. 在终端中，运行flutter设备命令来验证flutter是否识别了连接的Android设备。
   
- > 默认情况下，Flutter使用您的adb工具所基于的Android SDK版本。如果您希望Flutter使用不同的Android SDK安装，则必须将ANDROID_HOME环境变量设置为该安装目录。
+ >默认情况下，Flutter使用您的adb工具所基于的Android SDK版本。如果您希望Flutter使用不同的Android SDK安装，则必须将ANDROID_HOME环境变量设置为该安装目录。
  
  ### 设置Android模拟器
  
   > 要准备在Android模拟器上运行和测试Flutter应用程序，请遵循以下步骤:
   
-    1. 在您的机器上启用[VM加速]: https://developer.android.com/studio/run/emulator-acceleration.html。
+    1. 在您的机器上启用[VM加速](https://developer.android.com/studio/run/emulator-acceleration.html)。
     2. 启动 **Android Studio>Tools>Android>AVD Manager** ，选择 **Create Virtual Device** 。( **Android** 子菜单只在Android项目中出现。)
     3. 选择设备定义并选择 **Next** 。
     4. 为要模拟的Android版本选择一个或多个系统映像，然后选择 **Next** 。推荐使用x86或x86_64映像。
-    5. 在仿真性能下，选择 **Hardware - GLES 2.0** 来支持[硬件加速]: https://developer.android.com/studio/run/emulator-acceleration.html。
+    5. 在仿真性能下，选择 **Hardware - GLES 2.0** 来支持[硬件加速](https://developer.android.com/studio/run/emulator-acceleration.html)。
     6. 验证AVD配置是否正确，并选择 **Finish** 。
     
-      >> 有关上述步骤的详细信息，请参见 [管理AVDs]: https://developer.android.com/studio/run/managing-avds.html。
+      >> 有关上述步骤的详细信息，请参见 [管理AVDs](https://developer.android.com/studio/run/managing-avds.html)。
       
     7. 在Android虚拟设备管理器中，单击工具栏中的Run。模拟器启动并显示选定的OS版本和设备的默认画布。
