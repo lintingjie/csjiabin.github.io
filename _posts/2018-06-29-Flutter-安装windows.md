@@ -17,12 +17,12 @@ tags:
 ### 系统需求
 ---
 要安装和运行Flutter，您的开发环境必须满足这些最小的需求:
-  * 操作系统:Windows 7 SP1或更高版本(64位)
-  * 磁盘空间:400 MB(不包括IDE/工具的磁盘空间)。
-  * 工具:Flutter 取决于这些工具在您的环境中是否可用。
-    * PowerShell 5.0或更新
-    * Windows的Git(使用“Windows命令提示符使用Git”选项)
-    >>如果Windows的Git已经安装，请确保可以从命令提示符或PowerShell运行Git命令。
+ * 操作系统:Windows 7 SP1或更高版本(64位)
+ * 磁盘空间:400 MB(不包括IDE/工具的磁盘空间)。
+ * 工具:Flutter 取决于这些工具在您的环境中是否可用。
+  * PowerShell 5.0或更新
+  * Windows的Git(使用“Windows命令提示符使用Git”选项)
+  >如果Windows的Git已经安装，请确保可以从命令提示符或PowerShell运行Git命令。
 
 ### 获取Flutter SDK
 ---
