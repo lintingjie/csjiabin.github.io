@@ -58,6 +58,7 @@ tags:
       visit https://flutter.io/setup/#android-setup for detailed instructions.
 ```
 > 下面的部分将描述如何执行这些任务并完成安装过程。一旦安装了任何丢失的依赖项，再次运行flutter doctor命令，以验证所有设置都是正确的。
+
 > **flutter** 工具使用谷歌分析匿名报告特性使用统计数据和基本崩溃报告。这些数据被用来帮助改进Flutter工具。分析不是在第一次运行或任何涉及 **flutter config** 的运行时发送的，因此您可以在发送任何数据之前选择退出分析。要禁用报告，键入 **flutter config** ——不分析和显示当前设置，输入 **flutter config** 。看到谷歌的隐私政策[www.google.com/intl/en/policies/privacy](https://www.google.com/intl/en/policies/privacy)。
 
 ### 安卓系统设置
@@ -70,9 +71,9 @@ tags:
   2. 打开 Android Studio, 并通过“Android Studio安装向导”。这将安装最新的Android SDK、Android SDK平台工具和Android SDK构建工具，这些工具在开发Android时是需要的。
 
 #### 设置你的Android设备
----
+
 > 要准备在Android设备上运行和测试Flutter应用程序，您需要一个运行Android 4.1 (API级别16)或更高的Android设备。
----
+
   1. 在您的设备上启用 **开发人员选项** 和 **USB调试 ** 。详细说明可在[Android文档](https://developer.android.com/studio/debug/dev-options.html) 中找到。
   2. 仅限windows:安装[谷歌USB驱动](https://developer.android.com/studio/run/win-usb) 程序
   3. 用USB数据线把手机插入电脑。如果提示您的设备，请授权您的计算机访问您的设备。
@@ -80,8 +81,9 @@ tags:
  >默认情况下，Flutter使用您的adb工具所基于的Android SDK版本。如果您希望Flutter使用不同的Android SDK安装，则必须将ANDROID_HOME环境变量设置为该安装目录。
  
  #### 设置Android模拟器
- ---
+ 
   > 要准备在Android模拟器上运行和测试Flutter应用程序，请遵循以下步骤:
+  
     1. 在您的机器上启用[VM加速](https://developer.android.com/studio/run/emulator-acceleration.html)。
     2. 启动 **Android Studio>Tools>Android>AVD Manager** ，选择 **Create Virtual Device** 。( **Android** 子菜单只在Android项目中出现。)
     3. 选择设备定义并选择 **Next** 。
